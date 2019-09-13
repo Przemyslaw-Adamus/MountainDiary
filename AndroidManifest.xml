@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mountaindiary">
+
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".EasterEgg"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_easter_egg"
+            android:theme="@style/FullscreenTheme"></activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.mountaindiary"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+
+        <activity
+            android:name=".MyProfilActivity"
+            android:label="@string/my_account"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".ExportActivity"
+            android:label="@string/export"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MemoryCardActivity"
+            android:label="@string/memory_card"
+            android:screenOrientation="portrait"></activity> <!-- <activity android:name=".CoordsActivity" /> -->
+        <activity
+            android:name=".PeakActivity"
+            android:label=" "
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MountainDiaryActivity"
+            android:label="@string/title_activity_mountain_diary"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddPeakActivity"
+            android:label="@string/title_activity_add_peak"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

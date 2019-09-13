@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/imageViewN"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/location" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="TITLE"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textViewRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="Mountain range"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewRange"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="Date: dd-mm-rrrr hh:mm" />
+
+        <TextView
+            android:id="@+id/textViewXCord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDate"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="Cord X: 54,5454" />
+
+        <TextView
+            android:id="@+id/textViewYCord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewXCord"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="Cord Y: 77,7777" />
+
+        <ImageView
+            android:id="@+id/imageViewLocation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="4dp"
+            android:alpha="0.4"
+            android:background="@android:color/white"
+            android:src="@drawable/looted" />
+
+        <ImageView
+            android:id="@+id/imageViewFoto"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="4dp"
+            android:alpha="0.40"
+            android:background="@android:color/white"
+            android:src="@drawable/camera" />
+
+        <ImageView
+            android:id="@+id/imageViewWinter"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="46dp"
+            android:alpha="0.40"
+            android:background="@android:color/white"
+            android:src="@drawable/snowflake" />
+
+        <ImageView
+            android:id="@+id/imageViewSummer"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="46dp"
+            android:alpha="0.4"
+            android:background="@android:color/white"
+            android:src="@drawable/sunny" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

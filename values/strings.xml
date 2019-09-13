@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Górski Pamiętnik</string>
+    <string name="title_activity_mountain_diary">Górski Pamietnik</string>
+    <string name="tab_text_1">Góry</string>
+    <string name="tab_text_2">Moje szczyty</string>
+    <string name="tab_text_3">Pomoc</string>
+    <string name="tab_text_4">Info</string>
+    <string name="my_account">Moje konto</string>
+    <string name="language">Jezyki</string>
+    <string name="colors">Kolory</string>
+    <string name="settings">Ustawienia</string>
+    <string name="info">Info</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="CZ">Republika Czeska</string>
+    <string name="HELP">Pomoc</string>
+    <string name="SK">Słowacja</string>
+    <string name="PL">Polska</string>
+    <string name="ToastMoreInfoHelp">Klikając w flagę otrzymasz  więcej informacji na temat ratunku przez slużby z danego kraju</string>
+    <string name="send">Wyślij SMS</string>
+    <string name="new_sms">NOWY SMS</string>
+    <string name="cancel">Anuluj</string>
+    <string name="moreInfoPL">W Polsce na fachową pomoc ratowników górskich możemy śmiało liczyć. Służby tego rodzaju  są bardzo dobrze rozwinięte, działają sprawnie i chyba każdy z turystów ma świadomość ich obecności.
+Ratownicy pełnią dyżury przy stacjach narciarskich, schroniskach górskich i  miejscach newralgicznych pod względem ruchu turystycznego.  Dysponują nowoczesnym sprzętem, zapleczem logistycznym  i ogromnym doświadczeniem zawodowym.
+\n\n
+TOPR – Tatrzańskie Ochotnicze Pogotowie Ratunkowe\n
+http://www.topr.pl/ - na stronie znajdziemy wiele ciekawych informacji. Aktualny stopień zagrożenia lawinowego, prognoza pogody, czy kronika z aktualnych akacji ratunkowych to tylko przykładowe z nich.
+\n\n
+GOPR – Górskie Ochotnicze Pogotowie Ratunkowe\n
+Obecnie składa się z  7 grup regionalnych. Dyżurki GOPR znajdują się również  przy schroniskach górskich w Tatrach Zachodnich (na hali Ornak, na Polanie Chochołowskiej)
+\n
+http://www.gopr.pl/ - na stronie znajdziemy między innymi prognozę pogody, poradnik turystyczny i inne informacje a propos sytuacji w górach.
+\n\n
+W Polsce obowiązuje uniwersalny numer ratunkowy  : 601 100 300/</string>
+
+    <string name="moreInfoSK">HZS - Horská Záchranná Služba\n\n
+Górskie pogotowie ratunkowe w Slowacji ma się bardzo dobrze. Zadania tej organizacji są szersze niż polskiego GOPR-u czy TOPR-u. Poza ratownictwem zajmuje się utrzymaniem szlaków i przewodnictwem górskim. HZS słynie przede wszystkim z ekspertów  w dziedzinie bezpieczeństwa lawinowego.
+\n
+http://www.hzs.sk/ - strona często aktualizowana i na bieżąco uzupełniana.  Możemy znaleźć tu bardzo dobre komunikaty pogodowe, dokładną ocenę zagrożenia lawinowego z podziałem na poszczególne pasma górskie i przepisy dotyczące ruchu turystycznego na Słowacji.
+\n
+Numer alarmowy na Słowacji  to : 18 300\n
+POMOC JEST PŁATNA !\n
+Należy posiadać wykupione ubezpieczenie turystyczne.</string>
+
+    <string name="moreInfoCZ">HSCR – Horska Sluzba Ceskiej Republiki\n\n
+Po rozpadzie Czechosłowacji organizacja odseparowała się od słowackiej odpowiedniczki i od tej pory funkcjonuje samodzielnie. Swoim działaniem obejmuje tylko  mały, beskidzki fragment Karpat, zaś większe zainteresowanie służby tej przypada na Sudety.
+\n
+http://www.hscr.cz/ - poza standardowymi informacjami, w ramach ciekawostek znajdziemy tam cennik akcji górskich, w Euro :) !
+\n
+Górski numer alarmowy w Czechach to:   +420 1210\n
+POMOC JEST PŁATNA !\n
+Należy posiadać wykupione ubezpieczenie turystyczne.</string>
+
+    <string name="moreInfoHELP">112 to numer alarmowy, bezpłatny i dostępny na terenie całej Unii Europejskiej zarówno z telefonów stacjonarnych, jak i komórkowych. Numer alarmowy 112 można wybrać w telefonie nieposiadającym karty SIM.
+Wprowadzenie numeru alarmowego 112 nie wyłączyło pozostałych numerów alarmowych do służb ratunkowych:\n
+997 - Policja,\n
+998 - Straż Pożarna,\n
+999 - Ratownictwo Medyczne.\n
+\n
+Pozostałe numery alarmowe funkcjonujące w Polsce:
+\n
+987 - centrum zarządzania kryzysowego
+\n
+991 - pogotowie energetyczne
+\n
+992 - pogotowie gazowe
+\n
+993 - pogotowie ciepłownicze
+\n
+994 - pogotowie wodno-kanalizacyjne
+\n
+995 - Komenda Główna Policji – system Child Alert
+\n
+996 - Centrum Antyterrorystyczne
+\n
+986 - straż miejska
+\n
+19 115 - Miejskie Centrum Kontaktu (dla Miasta Stołecznego Warszawy)
+\n
+116 000 - numer interwencyjny w sprawie zaginionych dzieci (Fundacja ITAKA)
+\n
+116 111 - telefon zaufania dla dzieci i młodzieży (Fundacja Dajemy Dzieciom Siłę)
+\n
+116 123  - Kryzysowy Telefon Zaufania (Instytut Psychologii Zdrowia)
+\n
+601 100 100 - numer ratunkowy nad wodą (MOPR i WOPR)
+\n
+601 100 300 - numer ratunkowy w górach (GOPR i TOPR)
+\n
+800 702 222 - Centrum Wsparcia dla osób w stanie kryzysu psychicznego (Fundacja ITAKA)
+\n
+22 668 70 00 - Niebieska Linia, ogólnopolski telefon dla ofiar przemocy w rodzinie</string>
+    <string name="title_activity_add_peak">Dodaj Szczyt</string>
+    <string name="name_peak">Nazwa szczytu</string>
+    <string name="name_range">Nazwa pasma górskiego</string>
+    <string name="height">Wysokość [m]</string>
+    <string name="coord_x">Szerokośc geograficzna (X)</string>
+    <string name="coord_y">Dlugość geograficzna (Y)</string>
+    <string name="button_add_add_peak">Dodaj nowy szczyt</string>
+    <string name="returnn">Cofnij</string>
+    <string name="rysy_desc">Góra położona na granicy polsko-słowackiej, w Tatrach Wysokich (jednej z części Tatr). Ma trzy wierzchołki, z których najwyższy jest środkowy (2503 m n.p.m.[1]), znajdujący się w całości na terytorium Słowacji. Wierzchołek północny, przez który biegnie granica, stanowi najwyżej położony punkt Polski (2499 m n.p.m.) i należy do Korony Europy</string>
+    <string name="lubomirt_desc">Szczyt w Paśmie Lubomira i Łysiny[1]. Nazwa szczytu pochodzi od nazwiska księcia Kazimierza Lubomirskiego. Nadano ją w 1932 r. w uznaniu jego zasług (w 1922 r. ofiarował domek myśliwski i 10 ha lasu na szczycie zwanym wówczas Łysiną pod budowę obserwatorium astronomicznego)</string>
+    <string name="chelmiec_desc">szczyt górski o wysokości 851 m n.p.m., wchodzący w skład Masywu Chełmca, będący częścią Gór Wałbrzyskich (Sudety Środkowe), wznoszącym się bezpośrednio nad okolicami Wałbrzycha. Jest najwyższym punktem w granicach administracyjnych Szczawna-Zdroju.</string>
+    <string name="klodzka_desc">drugi pod względem wysokości szczyt Gór Bardzkich, położony w ich południowo-wschodniej części</string>
+    <string name="kowadlo_desc">graniczny szczyt w południowej części Gór Złotych (Sudety Wschodnie), położony ponad wsią Bielice[</string>
+    <string name="rudawiec_desc">Trzeci co do wysokości szczyt Gór Bialskich. Według regionalizacji fizycznogeograficznej Polski J. Kondrackiego znajduje się w Górach Złotych</string>
+    <string name="tkt_desc">Turystyczna Korona Tatr</string>
+    <string name="panienska_desc">Panieńska Góra</string>
+    <string name="wilkowka_desc">Wilkówka</string>
+    <string name="kamionka_desc">Kamionka</string>
+    <string name="jurasowka_desc">Jurasówka</string>
+    <string name="wal_desc">Wał</string>
+    <string name="lubinka_desc">Lubinka</string>
+    <string name="marcinka_desc">Marcinka</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="export">Eksport i import DB</string>
+    <string name="desc">Opis w trakcie projektowania. Będzie dostępny w najbliższych aktualizacjach \n \n \n \n \n \n</string>
+    <string name="memory_card">Kartka z pamiętnika</string>
+
+    <string name="title_activity_easter_egg">Easter Egg :)</string>
+    <string name="dummy_button">Wstecz</string>
+    <string name="dummy_content">ALFA EDITION </string>
+
+
+    <!--<string name="app_name">Mountain Diary</string>
+    <string name="title_activity_mountain_diary">MountainDiaryActivity</string>
+    <string name="tab_text_1">My peaks</string>
+    <string name="tab_text_2">Mountain diary</string>
+    <string name="tab_text_3">Help</string>
+    <string name="tab_text_4">Info</string>
+    <string name="my_account">My account</string>
+    <string name="language">Language</string>
+    <string name="colors">Colors</string>
+    <string name="settings">Settings</string>
+    <string name="info">Info</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="CZ">Czech Republic</string>
+    <string name="HELP">Help</string>
+    <string name="SK">Slovakia</string>
+    <string name="PL">Poland</string>-->
+</resources>
